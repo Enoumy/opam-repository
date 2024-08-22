@@ -12,10 +12,8 @@ build: [
 depends: [
   "ocaml"            {>= "5.1.0"}
   "abstract_algebra" {= "v0.18~preview.129.36+325"}
-  "async_rpc_kernel" {= "v0.18~preview.129.36+325"}
   "core"             {= "v0.18~preview.129.36+325"}
   "core_kernel"      {= "v0.18~preview.129.36+325"}
-  "incr_dom"         {= "v0.18~preview.129.36+325"}
   "incr_map"         {= "v0.18~preview.129.36+325"}
   "incremental"      {= "v0.18~preview.129.36+325"}
   "ppx_here"         {= "v0.18~preview.129.36+325"}
@@ -23,9 +21,7 @@ depends: [
   "ppx_let"          {= "v0.18~preview.129.36+325"}
   "ppx_pattern_bind" {= "v0.18~preview.129.36+325"}
   "uopt"             {= "v0.18~preview.129.36+325"}
-  "virtual_dom"      {= "v0.18~preview.129.36+325"}
   "dune"             {>= "3.11.0"}
-  "ocaml-embed-file" {= "v0.18~preview.129.36+325"}
   "ppxlib"           {>= "0.28.0"}
 ]
 available: arch != "arm32" & arch != "x86_32"
